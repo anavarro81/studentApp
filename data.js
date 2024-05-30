@@ -1,42 +1,47 @@
 export const data = [
     {
-      name: "Juan",
-      surname: "Pérez",
+      id: 1,
+      nombre: "Juan",
+      apellido: "Pérez",
       email: "juan.perez@example.com",
-      phone: "123-456-7890",
-      password: "password123",
-      gender: "male"
+      telefono: "123-456-7890",
+      password: "password123",      
+      aprobado: true
     },
     {
-      name: "María",
-      surname: "Gómez",
+      id: 2,
+      nombre: "María",
+      apellido: "Gómez",
       email: "maria.gomez@example.com",
-      phone: "098-765-4321",
-      password: "password456",
-      gender: "female"
+      telefono: "098-765-4321",
+      password: "password456",      
+      aprobado: false
     },
     {
-      name: "Carlos",
-      surname: "López",
+      id: 3,
+      nombre: "Carlos",
+      apellido: "López",
       email: "carlos.lopez@example.com",
-      phone: "567-890-1234",
-      password: "password789",
-      gender: "male"
+      telefono: "567-890-1234",
+      password: "password789",      
+      aprobado: true
     },
     {
-      name: "Ana",
-      surname: "Martínez",
+      id: 4,
+      nombre: "Ana",
+      apellido: "Martínez",
       email: "ana.martinez@example.com",
-      phone: "432-109-8765",
-      password: "password101",
-      gender: "female"
+      telefono: "432-109-8765",
+      password: "password101",      
+      aprobado: true
     },
     {
-      name: "Luis",
-      surname: "Fernández",
+      id: 5,
+      nombre: "Luis",
+      apellido: "Fernández",
       email: "luis.fernandez@example.com",
-      phone: "321-654-0987",
-      password: "password202",
-      gender: "male"
+      telefono: "321-654-0987",
+      password: "password202",      
+      aprobado: true
     }
   ];
